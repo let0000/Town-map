@@ -21,9 +21,7 @@ export default function SearchMap() {
     ps.keywordSearch(search + category, (data, status, _pagination) => {
       if (status == kakao.maps.services.Status.OK) {
         const bounds = new kakao.maps.LatLngBounds();
-        console.log(bounds);
         let markers = [];
-        console.log(data);
 
         for (var i = 0; i < data.length; i++) {
           markers.push({

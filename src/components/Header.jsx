@@ -30,7 +30,7 @@ export default function Header() {
 
   return (
     <div className="header">
-      <Link to="/" className="logo">
+      <Link to="/townMap" className="logo">
         <img
           className="header-logo"
           src="https://cdn1.iconfinder.com/data/icons/icons-for-a-site-1/64/advantage_nearby-256.png"

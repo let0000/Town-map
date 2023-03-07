@@ -23,6 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://let0000.github.io/townMap/",
   "eslintConfig": {
     "extends": [
       "react-app",

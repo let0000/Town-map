@@ -7,7 +7,6 @@ import "./Home.css";
 export default function Home() {
   const [{ category, search, searchList }, dispatch] = useStateValue();
 
-  console.log(searchList?.length == 0 ? "검색x" : "검색o");
   return (
     <div className="home">
       <div

@@ -18,8 +18,6 @@ export default function SearchItem({
     myRef.current?.scrollIntoView({ behavior: "smooth", block: "center" });
   }, [focusItem]);
 
-  console.log(focusItem?.id);
-
   return (
     <div className="searchitem">
       <div
