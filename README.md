@@ -1,4 +1,4 @@
-# weather_app
+# Town-map
 React와 kakao Map API 를 이용한 지도 검색 사이트
 
 ## 배포링크
