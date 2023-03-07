@@ -1,0 +1,47 @@
+.searchitem-card {
+  height: 110px;
+  width: 80%;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 10px auto;
+  position: relative;
+  background-color: white;
+  border: 1px solid #566270;
+  overflow: hidden;
+}
+
+.searchitem-card > a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: black;
+}
+
+.searchitem-name {
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.searchitem-road-address {
+  font-size: 0.9em;
+  margin-bottom: 5px;
+}
+
+.searchitem-number-address {
+  padding-left: 26px;
+  color: #8a8a8a;
+  background: url("https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/places_jibun.png")
+    no-repeat;
+}
+
+.searchitem-address {
+  font-size: 0.9em;
+  margin-bottom: 5px;
+  color: #8a8a8a;
+}
+
+.searchitem-phone {
+  font-size: 0.9em;
+  color: green;
+}

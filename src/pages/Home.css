@@ -1,0 +1,13 @@
+.home {
+  margin: 15px;
+  display: flex;
+  background-color: #fffff3;
+}
+
+.home-map {
+  flex: 0.65;
+}
+
+.home-list {
+  flex: 0.35;
+}

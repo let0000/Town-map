@@ -1,0 +1,9 @@
+.searchlist {
+  overflow: scroll;
+  height: 100vh;
+}
+
+.searchlist-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
