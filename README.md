@@ -5,7 +5,8 @@ React와 kakao Map API 를 이용한 지도 검색 사이트
 https://let0000.github.io/townMap
 
 ## 기능
-키워드와 장소를 입력받아 위치정보를 받아오는 기능
+키워드와 장소를 입력받아 위치정보를 받아오는 기능\
+마커를 클릭하면 해당 아이템으로 포커스가 맞춰지는 기능
 
 ## 화면 이미지
 <img width="80%" src="https://user-images.githubusercontent.com/21376061/223463105-f31944df-60fd-4353-9a24-102068a19831.png"/>
