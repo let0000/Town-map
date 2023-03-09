@@ -24,6 +24,10 @@ kakao Map API
 reducer 를 이용한 상태관리
 
 ## 화면 이미지
+PC 화면
+<img width="80%" src="https://user-images.githubusercontent.com/21376061/223463105-f31944df-60fd-4353-9a24-102068a19831.png"/>
+
+
 <img width="80%" src="https://user-images.githubusercontent.com/21376061/223463105-f31944df-60fd-4353-9a24-102068a19831.png"/>
 
 ## 빌드 방법
