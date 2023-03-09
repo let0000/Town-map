@@ -5,3 +5,14 @@
   padding: 10px;
   cursor: pointer;
 }
+
+.searchmap-map {
+  width: 100%;
+  height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+  .searchmap-map {
+    height: 62vh;
+  }
+}

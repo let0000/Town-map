@@ -45,3 +45,27 @@
   font-size: 0.9em;
   color: green;
 }
+
+@media screen and (max-width: 768px) {
+  .searchitem {
+    margin-top: 5px;
+    margin-right: 5px;
+  }
+
+  .searchitem-card {
+    width: 150px;
+    height: 20vh;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 10px 5px;
+    position: relative;
+    background-color: white;
+    border: 1px solid #566270;
+  }
+
+  .searchitem-name {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+}

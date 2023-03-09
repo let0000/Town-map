@@ -60,13 +60,10 @@ export default function SearchMap() {
 
   return (
     <Map
+      className="searchmap-map"
       center={{
         lat: 37.566826,
         lng: 126.9786567,
-      }}
-      style={{
-        width: "100%",
-        height: "100vh",
       }}
       level={3}
       onCreate={setMap}

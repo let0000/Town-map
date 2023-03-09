@@ -11,3 +11,18 @@
 .home-list {
   flex: 0.35;
 }
+
+@media screen and (max-width: 768px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home-map {
+    flex: 0.6;
+  }
+
+  .home-list {
+    flex: 0.4;
+  }
+}
