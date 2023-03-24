@@ -79,7 +79,7 @@ reducer 를 이용한 상태관리
 
 ## 🌟 배포
 
-배포용 저장소 : [https://let0000.github.io/townMap](https://let0000.github.io/townMap)
+배포용 저장소 : [https://github.com/let0000/townMap](https://github.com/let0000/townMap)
 
 * React 에서 npm run build 명렁어를 통해 빌드용 파일을 만듭니다.
 * 빌드용 파일들을 github 저장소에 올린후 배포합니다.
