@@ -2,7 +2,7 @@
 
 ## 🌟 서비스 소개
 <p align='center'>
-<img width='400px' src='https://user-images.githubusercontent.com/21376061/227160347-99b0d147-8c54-4bc5-b5de-2ae51e99ef48.png'>
+<img width='300px' src='https://user-images.githubusercontent.com/21376061/227462915-46001dcd-58cf-44e1-9427-28e421f5d2cf.png'>
 </p>
 
     React와 kakao Map API 를 이용한 지도 검색 웹 어플리케이션
@@ -27,129 +27,38 @@ react-kakao-maps-sdk\
     
 ## 🌟 주요 기능
 
-키워드와 장소를 입력받아 검색하는 기능\
-kakao map API 에서 해당하는 데이터를 받아오는 기능\
-받아온 데이터를 지도에 marker 로 찍어주는 기능\
-받아온 데이터를 리스트로 나타내는 기능\
-marker를 클릭하면 해당 아이템으로 포커스가 맞춰지는 기능
-
-### 👌 위치 정보
+### 👌 검색 기능
 
 <p align='center'>
-  <img src="https://user-images.githubusercontent.com/21376061/227169377-9636f4a5-14a6-459a-8f74-2513156860a5.png"/>
+  <img src="https://user-images.githubusercontent.com/21376061/227463153-547d3f75-3eec-4d2d-9c32-d4ad94ada8ac.png"/>
 </p>
 
-* geolocation 을 이용하여 현재 위치의 경도 , 위도 값을 가져올 수 있습니다.
-* axios 를 이용하여 경도와 위도 값으로 카카오 API와 통신하여 현재의 주소 값을 얻어올 수 있습니다. 
+* 원하는 지역을 입력하여 검색할 수 있습니다.
 
 <p align='center'>
-  <img src="https://user-images.githubusercontent.com/21376061/227169213-a8f3cb94-2e04-4d1d-b2ae-5d0792539d6e.png"/>
+  <img src="https://user-images.githubusercontent.com/21376061/227463286-3be40f4a-3804-423d-8e14-830c3cab281e.png"/>
 </p>
 
-* 새로고침 버튼을 통해 현재 위치와 주소를 새로 받아 올 수 있습니다.
+* 카테고리를 선택하여 검색할 수 있습니다.
+
+### 👌 카카오 맵
 
 <p align='center'>
-  <img src="https://user-images.githubusercontent.com/21376061/227169304-33dc8b88-c581-4397-b795-6bd40b414197.png"/>
+  <img width='400px' src = "https://user-images.githubusercontent.com/21376061/227463526-9698f5ab-5811-465d-95d9-e18f779925ff.png"/>
 </p>
-<p align='center'>
- <img src="https://user-images.githubusercontent.com/21376061/227169645-50fdf4c0-9975-45c5-8a5c-15a40b332aab.png"/>
-</p>
-
-* 위치검색 버튼에 마우스를 올려 주변 원하는 장소를 검색 할 수 있습니다. 
-
-### 👌 위치 검색
-
-<p align='center'>
-  <img width='400px' src = "https://user-images.githubusercontent.com/21376061/227173782-73631056-2f50-408b-be72-3a34c2015061.png"/>
-</p>
-
 
 * 카카오 키워드 검색을 이용하여 검색한 리스트를 받아 올 수 있습니다.
 * 카카오맵 sdk 를 이용하여 현재위치와 검색한 리스트의 위치를 지도에 표시 할 수 있습니다.
+* 마커를 클릭하여 클릭한 위치의 정보를 얻을 수 있습니다.
 
-
-<p align='center'>
-  <img src = "https://user-images.githubusercontent.com/21376061/227172086-9f019e22-9ec7-449d-8c00-711c753c24c6.png"/>
-</p>
-
-
-* 마커를 클릭하여 클릭한 마커의 정보를 얻을 수 있습니다.
+### 👌 검색 목록
 
 <p align='center'>
-  <img src = "https://user-images.githubusercontent.com/21376061/227172176-dc509dc7-bf9a-4091-9f83-29ff54662aed.png"/>
+  <img width='300px' src = "https://user-images.githubusercontent.com/21376061/227463690-a4264c10-8a02-4485-841d-a12e05292514.png"/>
 </p>
 
-
-* 클릭한 마커가 어떤 아이템인지 리스트에서 확인할 수 있습니다.
-
-
-<p align='center'>
-  <img width='300px' src="https://user-images.githubusercontent.com/21376061/227172487-e6736b4c-10cb-471a-a5c1-11f058aca02e.png"/>
-</p>
-
-
-* 받아온 리스트를 화면에 띄울 수 있습니다.
-* 우측 상단의 닫기 버튼을 통해 리스트를 숨길 수 있습니다.
-
-
-<p align='center'>
-  <img src="https://user-images.githubusercontent.com/21376061/227172340-dc2962fd-1aec-43c8-9860-9868f8419e9a.png"/>
-</p>
-
-
-* 열기 버튼을 통해 리스트를 다시 나타낼 수 있습니다.
-
-
-### 👌 날씨 정보
-
-<p align='center'>
-  <img src = "https://user-images.githubusercontent.com/21376061/227177132-666b2cbe-e7ee-4804-b911-05d422c1e7b0.png"/>
-</p>
-
-
-* openwatherMap API 를 통해 위도와 경도값으로 현재 날씨와 기온을 받아 올 수 있습니다.
-
-
-### 👌 GPT 질문 기능
-
-<p align='center'>
-  <img width='300px' src = "https://user-images.githubusercontent.com/21376061/227177654-c95f47fa-7bc1-4014-b7f2-333eaed49272.png"/>
-</p>
-
-
-* openAI API 통신을 이용하여 GPT 에게 질문을 할 수 있습니다.
-* 아래 질문들을 선택하여 GPT 에게 대답을 들을 수 있습니다.
-
-<p align='center'>
-  <img src = "https://user-images.githubusercontent.com/21376061/227177561-e729117f-c219-44de-89fc-b641787aebfc.png"/>
-</p>
-
-
-* 우측 상단 닫기 버튼을 통해 질문창을 열고 닫을 수 있습니다.
-
-
-<p align='center'>
-  <img width='300px' src = "https://user-images.githubusercontent.com/21376061/227177927-73fd19ae-accc-4ec8-a028-136af1523fa6.png"/>
-</p>
-
-
-* 질문을 선택하면 대답이 오기 전까지 로딩중을 나타냅니다.
-
-
-<p align='center'>
-  <img width='300px' src = "https://user-images.githubusercontent.com/21376061/227177837-dd2676cd-f11e-4274-aa84-471f9e36a17f.png"/>
-</p>
-
-
-* GPT가 대답을 해주면 다시 물어보거나 다른 질문을 선택할 수 있습니다.
-
-
-<p align='center'>
-  <img width='300px' src = "https://user-images.githubusercontent.com/21376061/227178035-41c60e1a-e310-487e-904f-36c05a9630d3.png"/>
-</p>
-
-
-* 직접 질문하기를 선택하면 직접 원하는 질문을 입력할 수 있습니다.
+* 검색한 결과를 목록으로 나타낼 수 있습니다.
+* 선택한 마커가 어떤 목록인지 나타낼 수 있습니다.
 
 ## 🌟 상태관리
 reducer 를 이용한 상태관리
