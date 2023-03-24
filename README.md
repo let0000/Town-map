@@ -9,19 +9,11 @@
 
 배포 : [https://let0000.github.io/townMap](https://let0000.github.io/townMap)
 
-react-router-dom\
-react-kakao-maps-sdk\
-@mui/material\
-@mui/icons-material\
-
 <p align='center'>
     <img src="https://img.shields.io/badge/react-v18.2.0-61DAFB?logo=React"/>
-   <img src="https://img.shields.io/badge/react responsive-v9.0.2-61DAFB?logo=React"/>
-   <img src="https://img.shields.io/badge/@reduxjs/toolkit-^1.9.3-764ABC?logo=Redux"/>
-   <img src="https://img.shields.io/badge/react redux-^8.0.5-764ABC?logo=Redux"/>
-    <img src="https://img.shields.io/badge/@mui/material-^5.11.13-007fff?logo=mui"/>
+    <img src="https://img.shields.io/badge/react rotuer dom-v6.8.2-CA4245?logo=React Router"/>
+    <img src="https://img.shields.io/badge/@mui/material-^5.11.11-007fff?logo=mui"/>
    <img src="https://img.shields.io/badge/@mui/icons material-^5.11.11-007fff?logo=mui"/>
-   <img src="https://img.shields.io/badge/axios-^1.3.4-5A29E4?logo=Axios"/>
    <img src="https://img.shields.io/badge/react kakao maps sdk-^1.1.6-ffcd00?logo=Kakao"/>
 </p>
     
